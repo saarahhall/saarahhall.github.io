@@ -57,3 +57,25 @@ article {
 .timeline__nav ul li:hover {
   color: pink;
 }
+
+xml
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .image-container, .text-container {
+    flex: 1;
+  }
+  img, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+</style>
