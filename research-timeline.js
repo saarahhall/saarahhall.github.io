@@ -8,7 +8,7 @@ $(() => {
   offsetTop = parseInt(timeline.css('top'));
 
   const TIMELINE_VALUES = {
-    start: 190,
+    start: 240,
     step: 30 };
 
 
